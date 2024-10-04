@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       console.log('hello world');
+       console.warn('this is a warning');
+       console.error('erreur');
+       console.info('this is information');
+       //c est un commentaire 
+       alert('this is an alert');
+       // les variables
+       var name='nadjet';
+    console.log('mon nom est'+name);
+    console.log(name.length);
+    var age=27;
+    console.log('je m appele '+nadjet+'mon age est'+age);
+    console.log(`je m'apelle ${name} et j'ai ${age}`);
+    const name1="nadjet";
+    console.log(name1);
+    //les conditions
+    const time = new Date().getHours();
+    var salutation;
+    if (time < 10) {
+        salutation = "bonjour";
+    } else if (time < 20) {
+        salutation = "bonne journée";
+    } else {
+        salutation = "bonsoir";
+    }
+    //declaration des notes des deux modules 
+    var module1= 12;
+    var module2= 7;
+    //calcule de la moyenne
+    var moyenne=(module1+module2)/2;
+// la condition
+if (moyenne > 10) {
+    console.log("Bravo, vous avez réussi !");
+} else if (moyenne == 10) {
+    console.log("Passable");
+} else {
+    console.log("Vous allez refaire l'année");
+}
+//comparaison total et comparaison partielle
+var nombre = "5";
+if(nombre==5){
+    console.log("les valeurs sont egaux");
+}else {
+    console.log("les valeurs sont pas egaux");
+}
+if(nombre===5){
+    console.log("les valeurs et le type sont egaux");
+}else {
+    console.log("les valeurs et le typesont pas egales");
+}
+
+    </script>
+</body>
+</html>
